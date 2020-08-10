@@ -14,7 +14,7 @@ namespace SystemCommandLine.Demo
         {
             var name = new Option<string>("name")
             {
-                Name = "name",
+                Name = "-name",
                 Description = "The name of the person to greet.",
                 IsRequired = true
             };
