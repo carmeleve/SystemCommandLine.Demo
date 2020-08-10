@@ -12,9 +12,9 @@ namespace SystemCommandLine.Demo
         public GreetCommand(GreetOptions options)
            : base("greet", "Says a greeting to the specified person.")
         {
-            var name = new Option<string>("name")
+            var name = new Option<string>("--name")
             {
-                Name = "-name",
+                Name = "name",
                 Description = "The name of the person to greet.",
                 IsRequired = true
             };
